@@ -18,7 +18,7 @@ export default async function BlogPage() {
     })
 
   return (
-    <div className="container max-w-3xl py-6 lg:py-10">
+    <div className="container max-w-3xl py-20 lg:py-30">
     {posts?.length ? (
       <div className=" gap-10 space-y-6">
         {posts.map((post, index) => (
