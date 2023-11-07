@@ -3,7 +3,7 @@ import { ModeToggle } from './ModeToggle'
 const Navbar = () => {
   return (
     <header >
-    <nav className='border-divider-light border-b dark:border-divider-dark'>
+    <nav className='fixed border-divider-light border-b dark:border-divider-dark'>
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 transition-colors duration-500 lg:z-50  bg-white/70 backdrop-blur  dark:bg-slate-900/80 fm:hidden'>
         <div className='flex items-center justify-between h-16'>
           <div className='flex items-center'>
