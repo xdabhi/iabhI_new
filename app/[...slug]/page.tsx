@@ -1,17 +1,13 @@
-import { notFound } from "next/navigation"
-import { allAuthors, allPosts, allDocuments } from "contentlayer/generated"
-
-import { Mdx } from "@/components/mdx-components"
-
-import "@/styles/mdx.css"
-import { Metadata } from "next"
-import Image from "next/image"
-import Link from "next/link"
-
-
-import {  cn, formatDate } from "@/lib/utils"
-import { buttonVariants } from "@/components/ui/button"
-import { Icons } from "@/components/icons"
+import { notFound } from "next/navigation";
+import { allAuthors, allPosts, allDocuments } from "contentlayer/generated";
+import { Mdx } from "@/components/mdx-components";
+import "@/styles/mdx.css";
+import { Metadata } from "next";
+import Image from "next/image";
+import Link from "next/link";
+import {  cn, formatDate } from "@/lib/utils";
+import { buttonVariants } from "@/components/ui/button";
+import { Icons } from "@/components/icons";
 
 interface PostPageProps {
   params: {
@@ -79,12 +75,12 @@ export default async function PostPage({ params }: PostPageProps) {
 )
 
   return (
-    <article className="container relative max-w-3xl py-20 lg:py-20">
+    <article className="container relative max-w-3xl py-6 lg:py-10">
       <Link
         href="/"
         className={cn(
           buttonVariants({ variant: "ghost" }),
-          "absolute left-[-200px] top-14 hidden xl:inline-flex"
+          "absolute left-[-200px] top-40 hidden xl:inline-flex"
         )}
       >
         <Icons.chevronLeft className="mr-2 h-4 w-4" />
