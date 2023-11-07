@@ -13,7 +13,7 @@ const Navbar = () => {
               </Link>
             </div>
           </div>
-          <div className='hidden md:block'>
+          <div className=''>
             <div className='ml-4 flex items-center space-x-4'>
             <Link href='/about-contact'className=''>😎 About</Link>
             <Link href='/privacy-policy'>📜 Privacy Policy</Link>
