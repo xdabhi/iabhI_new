@@ -7,7 +7,7 @@ import React from 'react'
 
 function privacy() {
   return (
-    <article className="container relative max-w-3xl py-6 lg:py-10">
+    <article className="container relative max-w-3xl top-10 py-6 lg:py-10">
       
       <div>
         
